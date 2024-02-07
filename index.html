@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Profile Card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="#" class="logo"><i class="fa-brands fa-github"></i></a>
+      </header>
+      <form id="form" class="user-form">
+        <input
+          type="text"
+          id="input-search"
+          placeholder="Search Github username"
+          autocomplete="off"
+        />
+        <button type="submit" id="btn-submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+      <main id="main">
+        <!-- <figure class="user-card">
+          <img
+            class="card-img"
+            src="https://avatars.githubusercontent.com/u/82392989?v=4"
+            alt="User image"
+          />
+          <div class="card-info">
+            <div class="card-title">
+              <h2 class="card-name">Meric Gulen</h2>
+              <small>@mericgulen</small>
+            </div>
+             
+            <p>💡 Frontend Developer</p>
+             
+            <ul class="follow-list">
+              <li>
+                <i class="fa-solid fa-users"></i> 311 <strong>Followers</strong>
+              </li>
+              <li>2 <strong>Following</strong></li>
+              <li>
+                <i class="fa-solid fa-bookmark"></i> 10
+                <strong>Repository</strong>
+              </li>
+            </ul>
+
+            <div class="repos" id="repos">
+              <a href="#"><i class="fa-solid fa-bookmark"></i>Repo 1</a>
+              <a href="#"><i class="fa-solid fa-bookmark"></i>Repo 2</a>
+              <a href="#"><i class="fa-solid fa-bookmark"></i>Repo 3</a>
+            </div>
+          </div>
+        </figure> -->
+      </main>
+    </div>
+
+    <!--* script axios  -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
