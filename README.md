@@ -8,4 +8,4 @@ This project is built using HTML, CSS, JavaScript.
 
 ## Screenshot
 
-![](github.gif)
+![](github-finder.gif)
